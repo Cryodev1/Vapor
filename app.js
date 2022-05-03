@@ -17,6 +17,11 @@ inspect.innerText = "Avo"
 inspect.setAttribute("onclick", "javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Avo/avo.min.js';document.body.appendChild(a);}())")
 items.appendChild(inspect)
 
+var canvascloak = document.createElement("button")
+canvascloak.className = "vaportab"
+canvascloak.innerTect = "Quick Cloak"
+tab.setAttribute("onclick", 'new Nightmare({"title": "Tab Cloak","type": "js","js": "https://cdn.jsdelivr.net/gh/Cryodev1/Vapor/quickcloak.min.js","width": 400,"height": 300,"theme": "dark"})')
+
 appid.appendChild(items)
 
 var vaporstyle = document.createElement("style")
