@@ -19,7 +19,7 @@ items.appendChild(inspect)
 
 var canvascloak = document.createElement("button")
 canvascloak.className = "vaportab"
-canvascloak.innerTect = "Quick Cloak"
+canvascloak.innerText = "Quick Cloak"
 canvascloak.setAttribute("onclick", 'new Nightmare({"title": "Tab Cloak","type": "js","js": "https://cdn.jsdelivr.net/gh/Cryodev1/Vapor/quickcloak.min.js","width": 400,"height": 300,"theme": "dark"})')
 
 appid.appendChild(items)
